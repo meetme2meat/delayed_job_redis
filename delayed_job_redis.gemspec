@@ -12,5 +12,5 @@ Gem::Specification.new do |spec|
   spec.name           = 'delayed_job_redis'
   spec.require_paths  = ['lib']
   spec.summary        = 'Redis backend for DelayedJob'
-  spec.version        = '0.0.1'
+  spec.version        = '0.0.2'
 end
