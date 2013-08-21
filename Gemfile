@@ -6,6 +6,7 @@ source "http://rubygems.org"
   gem 'redis','>= 3.0.2'
   gem 'json' , '>= 1.6.1'
   gem 'delayed_job','~> 3.0.5'
+  gem 'activesupport','>= 3.2.0',:require => 'active_support'
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
